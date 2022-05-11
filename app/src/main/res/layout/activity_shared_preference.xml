@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".activity.SharedPreferenceActivity">
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:inputType="textEmailAddress"
+        android:hint="Enter : data" />
+
+    <EditText
+        android:id="@+id/et_key"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:inputType="textEmailAddress"
+        android:hint="Enter : key" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Save"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_remove_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Remove data"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_remove_all_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Remove all data"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Load"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="My data"/>
+
+</LinearLayout>
